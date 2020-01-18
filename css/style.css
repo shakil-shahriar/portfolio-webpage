@@ -1,0 +1,379 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.conterner{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body{
+    
+}
+
+/* header section start*/
+
+header{
+    width: 100%;
+    float: left;
+    background-color: blueviolet;
+    padding-top: 50px;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    padding: 0px 33px;
+}
+
+.menu{
+    width: 65%;
+    float: left;
+}
+
+nav ul{
+     list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 50px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.banner{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+
+.banner h2{
+    padding-top: 30px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 34px
+}
+
+.button{  
+    color: white;
+    margin-top: 41px;
+    background-color: darkorange;
+    padding: 14px 45px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: none;
+    box-shadow: 2px 4px orange;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+/* service section start*/
+
+.services{
+    width: 100%;
+    float: left;
+    background-color: aquamarine;
+    padding: 25px 0;
+    margin: 0 auto;
+}
+
+.service-title{
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.service-title h2{
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.service-title span{
+    border-bottom: 3px solid black;
+    display: block;
+    width: 90px;
+    margin: 0 auto;
+    padding: 5px 0px;
+}
+
+.service-title p{
+    padding: 15px;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+
+.service-one{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.service-one img{
+    
+}
+
+.service-one h2{
+    color: white;
+    padding: 11px;
+}
+
+.service-one p{
+    color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+/* team members section */
+
+
+.team{
+    width: 100%;
+    background-color: darkgray;
+    float: left;
+    padding: 25px 0;
+}
+
+.service-title.team-meeting{
+    
+}
+
+.team-member{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.team-member img{
+    width: 200px;
+}
+
+.team-member h2{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-top: 6px;
+}
+
+.team-member h3{
+    color: blue;
+    font-size: 15px;
+}
+
+.team-member p{
+    text-transform: capitalize;
+    padding: 10px 60px;
+    padding-top: 30px;
+}
+
+.team-member a{
+    color: white;
+    padding: 12px;
+}
+
+
+.fa.fa-facebook:hover{
+    color: #395388;
+}
+
+.fa.fa-twitter:hover{
+    color: aqua;
+}
+
+.fa.fa-linkedin:hover{
+    color:firebrick;
+}
+
+.fa.fa-envelope-o:hover{
+    color: yellow;
+}
+
+/* skill section start */
+
+.skills{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.service-title.skill-part{
+    
+}
+
+.skill-parcent{
+    width: 22%;
+    float: left;
+    text-align: center;
+    margin: 0px 17px;
+    padding: 40px 0;
+    position: relative;
+}
+
+.skill-parcent h2{
+    margin-top: 10px;
+}
+
+.skill-parcent p{
+    position: absolute;
+    top: 114px;
+    padding: 0px 130px;
+    font-weight: bold;
+}
+
+/* portfolio section start */
+
+.portfolio{
+	width: 100%;
+	float: left;
+    padding: 25px 0;
+    background: #FFDC98;
+}
+
+.service-title.portfolio-part{
+
+}
+
+.button-portfolio{
+    margin: 26px 14px;
+    padding: 10px 15px;
+    background: #C8AF79;
+    border: none;
+    color: white;
+}
+
+.portfolio-item{
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin: 0px 20px;
+    padding: 12px 0px;
+}
+
+.portfolio-item h3{
+    padding-top: 15px;
+    
+}
+
+.portfolio-btn{
+	width: 50%
+	margin: 0 auto;
+	text-align: center;
+}
+
+.btn-port{
+    background: #2FD0C0;
+    box-shadow: 0px 3px #049888;
+    margin-bottom: 35px;
+
+}
+
+/* contact section start */
+
+.contact-section{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #3C5499;;
+}
+
+.content{   
+    color: white;
+    padding: 26px 0px;
+}
+
+.content h2{
+    text-transform: uppercase;
+}
+
+.content p{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 12px;
+}
+
+.form{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+form{
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.form-group{    
+    width: 100%;
+    float: left;
+}
+
+.form-a{
+    display: inline-block;
+    margin-bottom: 4px;
+    height: 25px;
+    width: 262px;
+    background-color: #273a71;
+    border: 1px solid #778ca3;
+}
+
+.form-b{
+    height: 125px;
+    width: 530px;
+    background-color: #273a71;
+    border: 1px solid #778ca3;
+}
+
+.sender-btn{
+    width: 100%;
+    float: left;
+    margin: 15px auto;
+}
+
+.btn-send{
+    background: #37BCE8;
+    border-radius: 3%;
+    transition: .4s;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn-send:hover{
+    border: 2px solid #37BCE8;
+    background: transparent;
+}
+
+/* footer section start */
+
+.footer{
+    width: 100%;
+    float: left;
+    background-color: #344B8E;
+}
+
+.footer ul{
+    text-align: center;
+}
+
+.footer li{
+    display: inline-block;
+    padding: 20px 60px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
